@@ -22,6 +22,7 @@ defmodule Sand.MixProject do
   defp deps do
     [
       {:poison, "~> 3.1.0"},
+      {:simple_schema, "~> 1.1.4"},
       {:distillery, "~> 1.5.3"},
     ]
   end
