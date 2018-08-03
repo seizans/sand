@@ -1,7 +1,8 @@
 %{
-  "distillery": {:hex, :distillery, "1.5.3", "b2f4fc34ec71ab4f1202a796f9290e068883b042319aa8c9aa45377ecac8597a", [:mix], [], "hexpm"},
+  "artificery": {:hex, :artificery, "0.2.6", "f602909757263f7897130cbd006b0e40514a541b148d366ad65b89236b93497a", [], [], "hexpm"},
+  "distillery": {:hex, :distillery, "2.0.0-rc.6", "8059ef4d87197fd982520575f0bddcd13823eef6f2186483fb47f140cb19ee89", [:mix], [{:artificery, "~> 0.2", [hex: :artificery, repo: "hexpm", optional: false]}], "hexpm"},
   "ex_json_schema": {:hex, :ex_json_schema, "0.5.7", "14a1bcd716e432badb19e5f54fd0f3f0be47b34d1b5957944702be90d66a6cf6", [:mix], [], "hexpm"},
-  "memoize": {:hex, :memoize, "1.2.7", "fd435d76496717561dc14af9135def1a9d5cab400939bf2b784764fabafe1655", [:mix], [], "hexpm"},
+  "memoize": {:hex, :memoize, "1.2.8", "97b663984267c2e4a36881edf7feb1c1b848887f5ed0b8374ace0fef367ffb86", [:mix], [], "hexpm"},
   "poison": {:hex, :poison, "3.1.0", "d9eb636610e096f86f25d9a46f35a9facac35609a7591b3be3326e99a0484665", [:mix], [], "hexpm"},
   "simple_schema": {:hex, :simple_schema, "1.1.4", "fb4c601e659e7563fc7943c93cb50cdf18d7149a26c3198c0d368ff90cdccfdd", [:mix], [{:ex_json_schema, "~> 0.5.7", [hex: :ex_json_schema, repo: "hexpm", optional: false]}, {:memoize, "~> 1.2", [hex: :memoize, repo: "hexpm", optional: false]}], "hexpm"},
 }

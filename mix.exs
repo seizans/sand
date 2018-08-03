@@ -5,7 +5,7 @@ defmodule Sand.MixProject do
     [
       app: :sand,
       version: "0.1.0",
-      elixir: "~> 1.6",
+      elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -23,7 +23,7 @@ defmodule Sand.MixProject do
     [
       {:poison, "~> 3.1.0"},
       {:simple_schema, "~> 1.1.4"},
-      {:distillery, "~> 1.5.3"},
+      {:distillery, "~> 2.0.0-rc.6"},
     ]
   end
 end
